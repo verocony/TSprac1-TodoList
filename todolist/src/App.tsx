@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Item from 'components/Item';
 import TodoList from 'components/TodoList';
-import TodoForm from 'components/TodoForm';
+// import TodoForm from 'components/TodoForm';
 
 
 
@@ -18,7 +18,7 @@ function App() {
       <Item text='완료1' completed />
       <Item text='완료2' completed /> */}
       <TodoList />
-      <TodoForm />
+      {/* <TodoForm /> */}
 
       {/* <input type="text" 
         className='inputText'
